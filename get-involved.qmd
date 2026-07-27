@@ -8,12 +8,12 @@ title: "Get Involved"
 
 ::: {.card-custom}
 ## Volunteer
-[Lend your time and energy to ODA's work in Owo/Ose. Whether it's community outreach, event support, or campaign efforts, every hand helps drive real changes.]
+Lend your time and energy to ODA's work in Owo/Ose. Whether it's community outreach, event support, or campaign efforts, every hand helps drive real changes.
 :::
 
 :::{.card-custom}
 ### Donate
-[Your contribution directly supports ODA's initiatives - from the back-to-school bursary program to community development projects across Owo/Ose.]
+Your contribution directly supports ODA's initiatives - from the back-to-school bursary program to community development projects across Owo/Ose.
 :::
 
 ::: {.card-custom}

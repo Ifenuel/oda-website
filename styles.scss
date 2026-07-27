@@ -34,7 +34,7 @@ $navbar-fg: #ffffff;
 }
 
 .section-block {
-  padding: 3rem 1 rem;
+  padding: 3rem 1rem;
 }
 
 .card-custom {
@@ -57,4 +57,49 @@ $navbar-fg: #ffffff;
 .btn-primary-custom:hover {
   background-color: #2d5a9e;
   color: white;
+}
+
+/* ===== 1. Hero fades in once, on page load ===== */
+.hero-section {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== 2. Cards lift slightly when you hover over them ===== */
+.card-custom {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card-custom:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+/* ===== 3. Buttons grow slightly when you hover over them ===== */
+.btn-primary-custom {
+  transition: transform 0.15s ease,background-color 0.2s ease;
+}
+
+.btn-primary-custom:hover {
+  transform: scale(1.05);
+}
+
+/* ===== 4. Clicking a link scrolls smoothly instead of jumping ===== */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Bonus: subtle shadow under the navbar so it feels layered */
+.navbar {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
 }
