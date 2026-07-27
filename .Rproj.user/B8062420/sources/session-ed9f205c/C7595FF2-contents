@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "ODA - The Alternative for Change"
+  navbar:
+    background: primary
+    logo: images/logo.svg
+    left:
+      - href: index.qmd
+        text: Home
+      - href: mission.qmd
+        text: Mission
+      - href: leadership.qmd
+        text: Leadership
+      - href: news.qmd
+        text: News/Updates
+      - href: get-involved.qmd
+        text: Get Involved
+      - href: contact.qmd
+  page-footer:
+    center: "© 2026 ODA - The Alternative for Change. All rights reserved."
+    background: dark
+    
+format:
+  html:
+    theme: [flatly, styles.scss]
+    css: styles.css
+    toc: false
+    page-layout: full
+    
