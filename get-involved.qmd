@@ -2,11 +2,11 @@
 title: "Get Involved"
 ---
 
+::: {.page-header}
+# Ways to Get Involved
+:::
+
 ::: {.section-block}
-
-## Ways to Get Involved
-
-::: {.card-custom}
 ## Volunteer
 Lend your time and energy to ODA's work in Owo/Ose. Whether it's community outreach, event support, or campaign efforts, every hand helps drive real changes.
 :::

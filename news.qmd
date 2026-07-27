@@ -2,11 +2,11 @@
 title: "News & Updates"
 ---
 
+::: {.page-header}
+# Latest Updates
+:::
+
 ::: {.section-block}
-
-## Latest Updates
-
-::: {.card-custom}
 ### [ODA Bursary]
 *[Jan 2026]*
 

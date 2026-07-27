@@ -2,11 +2,11 @@
 title: "Leadership"
 ---
 
+::: {.page-header}
+# CEO
+:::
+
 ::: {.section-block}
-
-## CEO
-
-::: {.card-custom}
 
 ![](images/founder.jpg.jpeg){width="150px" style="border-radius:50%; float:left; margin-right:1.5rem;"}
 ### Oluwadamilola Desmond Awoyo
