@@ -6,8 +6,6 @@ title: ""
 # ODA - The Alternative for Change
 
 For House of Representatives, Owo/Ose - January Election
-
-[Get Involved](get-invoved.qmd){.btn-primary-custom}
 :::
 
 ::: {.section-block}
