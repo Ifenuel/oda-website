@@ -1,4 +1,4 @@
---- 
+---
 title: "Get Involved"
 ---
 
@@ -6,21 +6,30 @@ title: "Get Involved"
 # Ways to Get Involved
 :::
 
-::: {.section-block}
+::: {.feature-block}
 ## Volunteer
-Lend your time and energy to ODA's work in Owo/Ose. Whether it's community outreach, event support, or campaign efforts, every hand helps drive real changes.
+Lend your time and energy to ODA's work in Owo/Ose. Whether it's community outreach, event support, or campaign efforts, every hand helps drive real change.
+
+[Learn More](contact.qmd){.btn-gold}
 :::
 
-:::{.card-custom}
-### Donate
+::: {.section-dark}
+## Donate
 Your contribution directly supports ODA's initiatives - from the back-to-school bursary program to community development projects across Owo/Ose.
+
+[Donate Now](contact.qmd){.btn-gold}
 :::
 
-::: {.card-custom}
-### Spread the Word
-Help us reach more people - share ODA's mission with your friends, family,and community,and follow our updates on social media.
+::: {.feature-block}
+## Spread the Word
+Help us reach more people - share ODA's mission with your friends, family, and community, and follow our updates on social media.
+
+[Share Now](contact.qmd){.btn-gold}
 :::
 
-::: {.section-block style="text-align:center;"}
-[Contact Us to Get Started](contact.qmd){.btn-primary-custom}
+::: {.section-dark}
+## Ready to Get Started?
+Every action counts - whether it's a small share, a volunteer hour, or a donation. Join us in building real change for Owo/Ose.
+
+[Contact Us to Get Started](contact.qmd){.btn-gold}
 :::
