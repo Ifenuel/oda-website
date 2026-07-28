@@ -14,7 +14,7 @@
   margin-bottom: 0.3rem;
 }
 
-.contact-form label {
+.contact-form button {
   background-color: #1a3c6e;
   color: white;
   border: none;
@@ -22,6 +22,8 @@
   border-radius: 5px;
   font-weight: 600;
   cursor: pointer;
+  -webkit -appearance: none;
+  apperance: none;
 }
 
 .contact-form button:hover {
