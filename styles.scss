@@ -393,3 +393,27 @@ line-height:1.8;
     line-height: 1.6 !important;
   }
 }
+
+/* ===== Fix cards clipping/overflowing their white box ===== */
+.card-custom {
+  height: auto !important;
+  overflow: visible;
+}
+
+.section-block .column {
+  height: auto !important;
+}
+
+@media (max-width: 767px) {
+  .card-custom,
+  .section-block .column {
+    height: auto !important;
+    padding: 1.4rem 1rem;
+  }
+
+  .card-custom p,
+  .section-block .column p {
+    font-size: 0.92rem;
+    line-height: 1.55;
+  }
+}
