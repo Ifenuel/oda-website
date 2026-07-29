@@ -320,3 +320,76 @@ margin-top:15px;
 line-height:1.8;
 
 }
+
+/* ===== Mobile spacing & layout tightening ===== */
+@media (max-width: 767px) {
+
+  .hero-section {
+    min-height: 70vh;
+    padding: 2rem 1.2rem;
+  }
+
+  .section-block {
+    padding: 2.2rem 1.2rem;
+  }
+
+  .section-dark {
+    padding: 2.5rem 1.2rem;
+  }
+
+  .feature-block {
+    padding: 2.2rem 1.2rem;
+  }
+
+  /* Impact numbers row (15+, 5,000+, 25+, ₦50M+) */
+  .section-block .columns {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .section-block .column {
+    flex: 0 0 46%;
+    padding: 1.2rem 0.8rem;
+    margin: 0.4rem;
+  }
+
+  .section-block .column h1 {
+    font-size: 2rem;
+  }
+
+  .section-block .column p {
+    font-size: 0.85rem;
+  }
+
+  /* Cards (Education, Healthcare, Leadership) */
+  .card-custom {
+    padding: 1.6rem 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .card-custom h3 {
+    font-size: 1.3rem;
+    margin-top: 12px;
+  }
+
+  .card-custom p {
+    font-size: 0.95rem;
+    margin-top: 8px;
+    line-height: 1.6;
+  }
+
+  /* Founder image + text section */
+  .column img {
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    margin-bottom: 0.8rem !important;
+  }
+
+  p {
+    line-height: 1.6 !important;
+  }
+}
