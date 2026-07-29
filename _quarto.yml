@@ -3,7 +3,7 @@ project:
   output-dir: docs
 website:
   favicon: images/logo.svg
-  description: "Official campaign website for ODA - The Alternative for Change, Oluwadamilola Desmond Awoyo's platform for House of Reprsentatives,Owo/Ose"
+  description: "Official campaign website for ODA - The Alternative for Change, Oluwadamilola Desmond Awoyo's platform for House of Representatives, Owo/Ose"
   title: "ODA - The Alternative for Change"
   navbar:
     background: primary

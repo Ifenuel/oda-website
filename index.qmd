@@ -3,35 +3,169 @@ title: ""
 ---
 
 ::: {.hero-section}
-# ODA - The Alternative for Change
 
-For House of Representatives, Owo/Ose - January Election
+### OWO/OSE FEDERAL CONSTITUENCY
+
+# ODA – The Alternative for Change
+
+### A Vision Built on Opportunities, Development and Accountability
+
+For over **15 years**, Oluwadamilola Desmond Awoyo has served the people of Owo/Ose through community development, philanthropy and public service.
+
+Join us as we build a future where every citizen has the opportunity to thrive.
+
+<a href="join.qmd" class="btn-primary-custom">Join the Movement</a>
+
+<a href="mission.qmd" class="btn-outline-light ms-3">Our Mission</a>
+
 :::
 
 ::: {.section-block}
 
-## Welcome
+## Our Impact So Far
 
-Welcome to ODA - The Alternative for Change. For over 15 years, Oluwadamilola Desmond Awoyo has served the peope of Owo/Ose through public service and hands-on philanthropy. Now, as he seeks to represent Owo/Ose in the Federal House of Assembly this January, ODA stands as a platform built on three commitments: real Opportunities, visible Development, and Accountability.
+::: {.columns}
+
+::: {.column width="25%"}
+
+
+# 15+
+
+Years of Service
+
 :::
 
-::: {.section-block}
+::: {.column width="25%"}
 
-### What We Stand For
+# 5,000+
 
+Lives Reached
+
+:::
+
+::: {.column width="25%"}
+
+# 25+
+
+Communities
+
+:::
+
+::: {.column width="25%"}
+
+# ₦50M+
+
+Community Support
+
+:::
+
+:::
+
+:::
+
+:::: {.section-block}
+
+::: {.columns}
+
+::: {.column width="45%"}
+![](images/founder.jpg.jpeg){style="width:100%; border-radius:16px;"}
+:::
+
+::: {.column width="55%"}
+## Meet Oluwadamilola Desmond Awoyo
+
+For over **15 years**, Oluwadamilola Desmond Awoyo has devoted his life to public service, community development, youth empowerment and philanthropy throughout Owo/Ose.
+
+His campaign is built on a simple belief:
+
+**Leadership should create opportunities, drive development, and remain accountable to the people.**
+
+Rather than making promises, ODA believes in building trust through visible action and measurable impact.
+
+<a href="leadership.qmd" class="btn-primary-custom">Learn More</a>
+:::
+
+:::
+::::
+
+:::::: {.section-block}
+## Our Commitments
+
+:::: {.columns}
+
+::: {.column width="33%"}
 ::: {.card-custom}
-### Opportunities
-Expanding access to education, jobs, and support for local businesses and young people across Owo/Ose.
+# 🎓
+### Education & Youth
+Scholarships, skills acquisition, entrepreneurship support and opportunities for young people across Owo/Ose.
+
+<a href="mission.qmd" class="btn-gold">Learn More</a>
+:::
 :::
 
+::: {.column width="33%"}
 ::: {.card-custom}
-### Development
-Prioritizing infrastructure, healthcare, and community projects that create lasting, visible change.
+# 🏥
+### Healthcare & Development
+Improving healthcare, roads, clean water, schools and community infrastructure.
+
+<a href="mission.qmd" class="btn-gold">Learn More</a>
+:::
 :::
 
+::: {.column width="33%"}
 ::: {.card-custom}
-### Accountability
-Leading with transparency, regular community engagement, and a track record of philanthropy and public service that speaks for itself.
+# 🤝
+### Transparent Leadership
+A representative who listens, reports back and remains accountable to every community.
+
+<a href="leadership.qmd" class="btn-gold">Learn More</a>
+:::
+:::
+
+::::
+::::::
+
+::: {.section-dark}
+
+# Latest News
+
+Stay informed about campaign activities, community outreach, and upcoming events.
+
+<a href="news.qmd" class="btn-gold">Read Latest Updates</a>
+
+:::
+
+:::: {.section-block}
+
+# Community in Action
+
+::: {.columns}
+
+::: {.column}
+![](images/founder.jpg.jpeg){style="width:100%; border-radius:12px;"}
+:::
+
+::: {.column}
+![](images/founder.jpg.jpeg){style="width:100%; border-radius:12px;"}
+:::
+
+::: {.column}
+![](images/founder.jpg.jpeg){style="width:100%; border-radius:12px;"}
 :::
 
 :::
+::::
+
+::: {.section-dark}
+
+# Stay Connected
+
+Receive campaign news, community updates and important announcements.
+
+```{=html}
+<div>Newsletter temporarily removed for testing.</div>
+```
+
+:::
+

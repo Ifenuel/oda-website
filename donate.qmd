@@ -16,11 +16,11 @@ Every contribution directly supports ODA's work - from the back-to-school bursar
 ::: {.section-dark}
 ## Bank Transfer
 
-**Account Name:** [PLACEHOLDER: Awoyo Emmanuel Ifeoluwa]
-**Bank:** [PLACEHOLDER: POLARIS BANK]
-**Account Number:** [PLACEHOLDER: 3051998466]
+**Account Name:** Awoyo Emmanuel Ifeoluwa
+**Bank:** POLARIS BANK
+**Account Number:** 3051998466
 
-Please use your name as the transfer reference so we can confirm your donation. For a receipt, email [PLACEHOLDER: awoyoemmanuel12@gmail.com] with your transfer confirmation.
+Please use your name as the transfer reference so we can confirm your donation. For a receipt, email awoyoemmanuel12@gmail.com with your transfer confirmation.
 :::
 
 ::: {.feature-block}

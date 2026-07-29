@@ -1,59 +1,38 @@
 [
   {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "News & Updates",
+    "objectID": "test.html",
+    "href": "test.html",
+    "title": "Test",
     "section": "",
-    "text": "Latest Updates\n\n\nODA Bursary\n[Jan 2026]\nAs part of ODA’s commitment to expanding opportunities across Owo/Ose, the organization is providing a 50,000 naira back-to-school grant to 1,000 students in the constituency. This initiative aims to ease the financial burden of returning to school and ensure more young people have the support they need to continue their education. It’s a direct reflection of ODA’s founding principle - that real change starts with real, tangible opportunities for the community."
+    "text": "Hello World\nThis is a test."
   },
   {
-    "objectID": "leadership.html",
-    "href": "leadership.html",
-    "title": "Leadership",
-    "section": "",
-    "text": "CEO\n\n\n ### Oluwadamilola Desmond Awoyo Founder, ODA - The Alternative for Change\nOluwadamilola Desmond Awoyo was born the second of four children in the Awoyo family, a upbringing that instilled in him early lessons in responsibility, community, and service to others. He pursued this foundation academically, earning his Bachelor’s degree in History and International Relations from Federal University of Lokoja, before furthering his studies abroad with a Master’s degree in Global Politics in the United Kingdom, and later a PhD from the University of Miami.\nOver the past 15 years, Desmond has built a career in public service and philanthropy, working directly with communities to understand and address the everyday challenges they face. It was this hands-on experience, seeing firsthand the gap between promises made and change delivered - that led him to found ODA: The Alternative for Change. ODA was born from a simple conviction: that leadership should mean real Opportunities, visible Development, and unwavering Accountability to the people it serves.\nToday,as he seeks to represent Owo/Ose in the House of Representatives this January, desmond carries forward the same values that have guided him since childhood - a commitment to service, a belief in community, and a vision for a future where every constituent has access to opportunity and can trust their leadership to deliver."
+    "objectID": "mission.html#mission-statement",
+    "href": "mission.html#mission-statement",
+    "title": "Our Mission",
+    "section": "Mission Statement",
+    "text": "Mission Statement\nODA exists to expand real opportunities, drive sustainable development, and hold leadership accountable to the people of Owo/Ose - turning years of public service and community work into a platform that puts people first."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ODA - The Alternative for Change",
-    "section": "",
-    "text": "For House of Representatives, Owo/Ose - January Election"
+    "objectID": "mission.html#our-vision",
+    "href": "mission.html#our-vision",
+    "title": "Our Mission",
+    "section": "Our Vision",
+    "text": "Our Vision\nA future where every constituent in Owo/Ose has access to opportunity, sees tangible development in their community, and can trust that their representative answers to them."
   },
   {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "ODA - The Alternative for Change",
-    "section": "Welcome",
-    "text": "Welcome\nWelcome to ODA - The Alternative for Change. For over 15 years, Oluwadamilola Desmond Awoyo has served the peope of Owo/Ose through public service and hands-on philanthropy. Now, as he seeks to represent Owo/Ose in the Federal House of Assembly this January, ODA stands as a platform built on three commitments: real Opportunities, visible Development, and Accountability."
+    "objectID": "mission.html#our-approach",
+    "href": "mission.html#our-approach",
+    "title": "Our Mission",
+    "section": "Our Approach",
+    "text": "Our Approach\n\nOpportunities\nDevelopment\nAccountability"
   },
   {
-    "objectID": "donate.html#why-your-donation-matters",
-    "href": "donate.html#why-your-donation-matters",
-    "title": "Donate",
-    "section": "Why Your Donation Matters",
-    "text": "Why Your Donation Matters\nEvery contribution directly supports ODA’s work - from the back-to-school bursary program to community development projects across Owo/Ose."
-  },
-  {
-    "objectID": "donate.html#bank-transfer",
-    "href": "donate.html#bank-transfer",
-    "title": "Donate",
-    "section": "Bank Transfer",
-    "text": "Bank Transfer\nAccount Name: [PLACEHOLDER: Awoyo Emmanuel Ifeoluwa] Bank: [PLACEHOLDER: POLARIS BANK] Account Number: [PLACEHOLDER: 3051998466]\nPlease use your name as the transfer reference so we can confirm your donation. For a receipt, email [PLACEHOLDER: awoyoemmanuel12@gmail.com] with your transfer confirmation."
-  },
-  {
-    "objectID": "donate.html#online-payment",
-    "href": "donate.html#online-payment",
-    "title": "Donate",
-    "section": "Online Payment",
-    "text": "Online Payment\nDonate Online"
-  },
-  {
-    "objectID": "contact.html#other-ways-to-reach-us",
-    "href": "contact.html#other-ways-to-reach-us",
-    "title": "Contact Us",
-    "section": "Other Ways to Reach Us",
-    "text": "Other Ways to Reach Us\nEmail: awoyooluwadamilola@gmail.com Phone No: 07032183870"
+    "objectID": "join.html#tell-us-why-you-want-to-join",
+    "href": "join.html#tell-us-why-you-want-to-join",
+    "title": "Join Us",
+    "section": "Tell Us Why You Want to Join",
+    "text": "Tell Us Why You Want to Join\nFill out the form below and let us know how you’d like to get involved. Oluwadamilola and the ODA team will personally follow up with you.\n\n\nFull Name \nEmail \nPhone Number \nHow would you like to help?  Community outreach Event support Social media / spreading the word Other \nWhy do you want to join ODA?\n\n\nSubmit"
   },
   {
     "objectID": "get-involved.html#volunteer",
@@ -84,31 +63,73 @@
     "text": "Ready to Get Started?\nEvery action counts - whether it’s a small share, a volunteer hour, or a donation. Join us in building real change for Owo/Ose.\nContact Us to Get Started"
   },
   {
-    "objectID": "join.html#tell-us-why-you-want-to-join",
-    "href": "join.html#tell-us-why-you-want-to-join",
-    "title": "Join Us",
-    "section": "Tell Us Why You Want to Join",
-    "text": "Tell Us Why You Want to Join\nFill out the form below and let us know how you’d like to get involved. Oluwadamilola and the ODA team will personally follow up with you.\n\n\nFull Name \nEmail \nPhone Number \nHow would you like to help?  Community outreach Event support Social media / spreading the word Other \nWhy do you want to join ODA?\n\n\nSubmit"
+    "objectID": "contact.html#other-ways-to-reach-us",
+    "href": "contact.html#other-ways-to-reach-us",
+    "title": "Contact Us",
+    "section": "Other Ways to Reach Us",
+    "text": "Other Ways to Reach Us\nEmail: awoyooluwadamilola@gmail.com Phone No: 07032183870"
   },
   {
-    "objectID": "mission.html#mission-statement",
-    "href": "mission.html#mission-statement",
-    "title": "Our Mission",
-    "section": "Mission Statement",
-    "text": "Mission Statement\nODA exists to expand real opportunities, drive sustainable development, and hold leadership accountable to the people of Owo/Ose - turning years of public service and community work into a platform that puts people first."
+    "objectID": "donate.html#why-your-donation-matters",
+    "href": "donate.html#why-your-donation-matters",
+    "title": "Donate",
+    "section": "Why Your Donation Matters",
+    "text": "Why Your Donation Matters\nEvery contribution directly supports ODA’s work - from the back-to-school bursary program to community development projects across Owo/Ose."
   },
   {
-    "objectID": "mission.html#our-vision",
-    "href": "mission.html#our-vision",
-    "title": "Our Mission",
-    "section": "Our Vision",
-    "text": "Our Vision\nA future where every constituent in Owo/Ose has access to opportunity, sees tangible development in their community, and can trust that their representative answers to them."
+    "objectID": "donate.html#bank-transfer",
+    "href": "donate.html#bank-transfer",
+    "title": "Donate",
+    "section": "Bank Transfer",
+    "text": "Bank Transfer\nAccount Name: Awoyo Emmanuel Ifeoluwa Bank: POLARIS BANK Account Number: 3051998466\nPlease use your name as the transfer reference so we can confirm your donation. For a receipt, email awoyoemmanuel12@gmail.com with your transfer confirmation."
   },
   {
-    "objectID": "mission.html#our-approach",
-    "href": "mission.html#our-approach",
-    "title": "Our Mission",
-    "section": "Our Approach",
-    "text": "Our Approach\n\nOpportunities\nDevelopment\nAccountability"
+    "objectID": "donate.html#online-payment",
+    "href": "donate.html#online-payment",
+    "title": "Donate",
+    "section": "Online Payment",
+    "text": "Online Payment\nDonate Online"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "15+",
+    "section": "",
+    "text": "For over 15 years, Oluwadamilola Desmond Awoyo has served the people of Owo/Ose through community development, philanthropy and public service.\nJoin us as we build a future where every citizen has the opportunity to thrive.\nJoin the Movement\nOur Mission"
+  },
+  {
+    "objectID": "index.html#our-impact-so-far",
+    "href": "index.html#our-impact-so-far",
+    "title": "15+",
+    "section": "Our Impact So Far",
+    "text": "Our Impact So Far"
+  },
+  {
+    "objectID": "index.html#meet-oluwadamilola-desmond-awoyo",
+    "href": "index.html#meet-oluwadamilola-desmond-awoyo",
+    "title": "15+",
+    "section": "Meet Oluwadamilola Desmond Awoyo",
+    "text": "Meet Oluwadamilola Desmond Awoyo\nFor over 15 years, Oluwadamilola Desmond Awoyo has devoted his life to public service, community development, youth empowerment and philanthropy throughout Owo/Ose.\nHis campaign is built on a simple belief:\nLeadership should create opportunities, drive development, and remain accountable to the people.\nRather than making promises, ODA believes in building trust through visible action and measurable impact.\nLearn More"
+  },
+  {
+    "objectID": "index.html#our-commitments",
+    "href": "index.html#our-commitments",
+    "title": "15+",
+    "section": "Our Commitments",
+    "text": "Our Commitments"
+  },
+  {
+    "objectID": "leadership.html",
+    "href": "leadership.html",
+    "title": "Leadership",
+    "section": "",
+    "text": "Leadership\n\n\n\n\nOluwadamilola Desmond Awoyo\nFounder, ODA - The Alternative for Change\nOluwadamilola Desmond Awoyo was born the second of four children in the Awoyo family, an upbringing that instilled in him early lessons in responsibility, community, and service to others. He pursued this foundation academically, earning his Bachelor’s degree in History and International Relations from Federal University of Lokoja, before furthering his studies abroad with a Master’s degree in Global Politics in the United Kingdom, and later a PhD from the University of Miami.\nOver the past 15 years, Desmond has built a career in public service and philanthropy, working directly with communities to understand and address the everyday challenges they face. It was this hands-on experience - seeing firsthand the gap between promises made and change delivered - that led him to found ODA: The Alternative for Change. ODA was born from a simple conviction: that leadership should mean real Opportunities, visible Development, and unwavering Accountability to the people it serves.\nToday, as he seeks to represent Owo/Ose in the House of Representatives this January, Desmond carries forward the same values that have guided him since childhood - a commitment to service, a belief in community, and a vision for a future where every constituent has access to opportunity and can trust their leadership to deliver."
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News & Updates",
+    "section": "",
+    "text": "Latest Updates\n\n\nODA Bursary\n[Jan 2026]\nAs part of ODA’s commitment to expanding opportunities across Owo/Ose, the organization is providing a 50,000 naira back-to-school grant to 1,000 students in the constituency. This initiative aims to ease the financial burden of returning to school and ensure more young people have the support they need to continue their education. It’s a direct reflection of ODA’s founding principle - that real change starts with real, tangible opportunities for the community."
   }
 ]
