@@ -400,20 +400,85 @@ line-height:1.8;
   overflow: visible;
 }
 
-.section-block .column {
-  height: auto !important;
-}
-
+/* ===== Mobile spacing & layout tightening ===== */
 @media (max-width: 767px) {
-  .card-custom,
-  .section-block .column {
-    height: auto !important;
-    padding: 1.4rem 1rem;
+
+  .hero-section {
+    min-height: 70vh;
+    padding: 2rem 1.2rem;
   }
 
-  .card-custom p,
+  .section-block {
+    padding: 2.2rem 1.2rem;
+  }
+
+  .section-dark {
+    padding: 2.5rem 1.2rem;
+  }
+
+  .feature-block {
+    padding: 2.2rem 1.2rem;
+  }
+
+  /* Force all columns to use full available width on mobile */
+  .columns {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .section-block .column,
+  .card-custom {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* Impact stats row (15+, 5,000+, 25+, ₦50M+) stay 2-per-row */
+  .section-block .columns:has(.column div[onclick*="modal"]) .column {
+    flex: 0 0 46% !important;
+    width: 46% !important;
+    max-width: 46% !important;
+  }
+
+  .section-block .column {
+    padding: 1.2rem 1rem;
+    margin: 0.4rem 0;
+  }
+
+  .section-block .column h1 {
+    font-size: 2rem;
+  }
+
   .section-block .column p {
-    font-size: 0.92rem;
-    line-height: 1.55;
+    font-size: 0.9rem;
+  }
+
+  .card-custom {
+    padding: 1.6rem 1.2rem;
+    margin-bottom: 1rem;
+    height: auto !important;
+    overflow: visible;
+  }
+
+  .card-custom h3 {
+    font-size: 1.3rem;
+    margin-top: 12px;
+  }
+
+  .card-custom p {
+    font-size: 0.95rem;
+    margin-top: 8px;
+    line-height: 1.6;
+  }
+
+  h2 {
+    margin-bottom: 0.8rem !important;
+  }
+
+  p {
+    line-height: 1.6 !important;
   }
 }
