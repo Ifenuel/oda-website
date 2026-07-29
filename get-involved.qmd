@@ -10,21 +10,25 @@ title: "Get Involved"
 ## Volunteer
 Lend your time and energy to ODA's work in Owo/Ose. Whether it's community outreach, event support, or campaign efforts, every hand helps drive real change.
 
-[Learn More](contact.qmd){.btn-gold}
+[Join Us](join.qmd){.btn-gold}
 :::
 
 ::: {.section-dark}
 ## Donate
 Your contribution directly supports ODA's initiatives - from the back-to-school bursary program to community development projects across Owo/Ose.
 
-[Donate Now](contact.qmd){.btn-gold}
+[Donate Now](donate.qmd){.btn-gold}
 :::
 
 ::: {.feature-block}
 ## Spread the Word
-Help us reach more people - share ODA's mission with your friends, family, and community, and follow our updates on social media.
+Help us reach more people - share ODA's mission directly to your friends, family, and community.
 
-[Share Now](contact.qmd){.btn-gold}
+<div style="display:flex; gap:1rem; flex-wrap:wrap; margin-top:1rem;">
+  <a href="https://wa.me/?text=Check%20out%20ODA%20-%20The%20Alternative%20for%20Change%3A%20https%3A%2F%2Fifenuel.github.io%2Foda-website%2F" target="_blank" class="btn-gold">Share on WhatsApp</a>
+  <a href="https://twitter.com/intent/tweet?text=Check%20out%20ODA%20-%20The%20Alternative%20for%20Change&url=https%3A%2F%2Fifenuel.github.io%2Foda-website%2F" target="_blank" class="btn-gold">Share on X</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fifenuel.github.io%2Foda-website%2F" target="_blank" class="btn-gold">Share on Facebook</a>
+</div>
 :::
 
 ::: {.section-dark}

@@ -1,0 +1,30 @@
+---
+title: "Donate"
+---
+
+::: {.page-header}
+# Support ODA
+:::
+
+::: {.feature-block}
+## Why Your Donation Matters
+
+Every contribution directly supports ODA's work - from the back-to-school bursary program to community development projects across Owo/Ose.
+
+:::
+
+::: {.section-dark}
+## Bank Transfer
+
+**Account Name:** [PLACEHOLDER: Awoyo Emmanuel Ifeoluwa]
+**Bank:** [PLACEHOLDER: POLARIS BANK]
+**Account Number:** [PLACEHOLDER: 3051998466]
+
+Please use your name as the transfer reference so we can confirm your donation. For a receipt, email [PLACEHOLDER: awoyoemmanuel12@gmail.com] with your transfer confirmation.
+:::
+
+::: {.feature-block}
+## Online Payment
+
+[Donate Online](https://paystack.shop/pay/3i4o2cshu9){.btn-gold}
+:::

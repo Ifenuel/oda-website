@@ -19,7 +19,12 @@ website:
         text: News/Updates
       - href: get-involved.qmd
         text: Get Involved
+      - href: join.qmd
+        text: Join Us
+      - href: donate.qmd
+        text: Donate
       - href: contact.qmd
+        text: Contact
   page-footer:
     center: "© 2026 ODA - The Alternative for Change. All rights reserved."
     background: dark

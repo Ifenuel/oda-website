@@ -16,5 +16,11 @@
   },
   "news.qmd": {
     "news.html": "d893dda5"
+  },
+  "donate.qmd": {
+    "donate.html": "d756dd48"
+  },
+  "join.qmd": {
+    "join.html": "5430dad7"
   }
 }
