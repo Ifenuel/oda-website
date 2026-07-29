@@ -35,4 +35,5 @@ format:
     css: styles.css
     toc: false
     page-layout: full
+    anchor-sections: false
     
