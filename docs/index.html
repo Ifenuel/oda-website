@@ -171,22 +171,22 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <div class="columns">
 <div class="column" style="width:25%;">
-<section id="section" class="level1" data-bs-toggle="modal" data-bs-target="#modalYears" style="cursor:pointer;">
+<section id="section" class="level1" onclick="document.getElementById('modalYears').style.display='flex'" style="cursor:pointer;">
 
 <p>Years of Service</p>
 </section>
 </div><div class="column" style="width:25%;">
-<section id="section-1" class="level1" data-bs-toggle="modal" data-bs-target="#modalLives" style="cursor:pointer;">
+<section id="section-1" class="level1" onclick="document.getElementById('modalLives').style.display='flex'" style="cursor:pointer;">
 <h1>5,000+</h1>
 <p>Lives Reached</p>
 </section>
 </div><div class="column" style="width:25%;">
-<section id="section-2" class="level1" data-bs-toggle="modal" data-bs-target="#modalCommunities" style="cursor:pointer;">
+<section id="section-2" class="level1" onclick="document.getElementById('modalCommunities').style.display='flex'" style="cursor:pointer;">
 <h1>25+</h1>
 <p>Communities</p>
 </section>
 </div><div class="column" style="width:25%;">
-<section id="m" class="level1" data-bs-toggle="modal" data-bs-target="#modalSupport" style="cursor:pointer;">
+<section id="m" class="level1" onclick="document.getElementById('modalSupport').style.display='flex'" style="cursor:pointer;">
 <h1>₦50M+</h1>
 <p>Community Support</p>
 </section>
@@ -216,7 +216,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="columns">
 <div class="column" style="width:33%;">
 <div class="card-custom">
-<section id="section-3" class="level1" data-bs-toggle="modal" data-bs-target="#modalEducation" style="cursor:pointer;">
+<section id="section-3" class="level1" onclick="document.getElementById('modalEducation').style.display='flex'" style="cursor:pointer;">
 <h1>🎓</h1>
 <section id="education-youth" class="level3">
 <h3 class="anchored" data-anchor-id="education-youth">Education &amp; Youth</h3>
@@ -226,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div><div class="column" style="width:33%;">
 <div class="card-custom">
-<section id="section-4" class="level1" data-bs-toggle="modal" data-bs-target="#modalHealthcare" style="cursor:pointer;">
+<section id="section-4" class="level1" onclick="document.getElementById('modalHealthcare').style.display='flex'" style="cursor:pointer;">
 <h1>🏥</h1>
 <section id="healthcare-development" class="level3">
 <h3 class="anchored" data-anchor-id="healthcare-development">Healthcare &amp; Development</h3>
@@ -236,7 +236,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div><div class="column" style="width:33%;">
 <div class="card-custom">
-<section id="section-5" class="level1" data-bs-toggle="modal" data-bs-target="#modalLeadership" style="cursor:pointer;">
+<section id="section-5" class="level1" onclick="document.getElementById('modalLeadership').style.display='flex'" style="cursor:pointer;">
 <h1>🤝</h1>
 <section id="transparent-leadership" class="level3">
 <h3 class="anchored" data-anchor-id="transparent-leadership">Transparent Leadership</h3>
@@ -414,108 +414,105 @@ ul.task-list li input[type="checkbox"] {
 </script>
 <script defer="" src="https://sibforms.com/forms/end-form/build/main.js"></script>
 </section>
-<div class="modal fade" id="modalYears" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title anchored">15+ Years of Service</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="images/founder.jpg.jpeg" style="width:100%; border-radius:10px; margin-bottom:1rem;">
-        <p>For over 15 years, Oluwadamilola Desmond Awoyo has been actively involved in community development across Owo/Ose — from grassroots outreach to youth mentorship programs, building trust one community at a time.</p>
-      </div>
-    </div>
+<style>
+.custom-modal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+}
+.custom-modal-box {
+  background: white;
+  max-width: 500px;
+  width: 90%;
+  border-radius: 12px;
+  padding: 1.5rem;
+  position: relative;
+  max-height: 85vh;
+  overflow-y: auto;
+}
+.custom-modal-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #333;
+  background: none;
+  border: none;
+  line-height: 1;
+}
+.custom-modal-box img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+</style>
+
+<div class="custom-modal" id="modalYears" onclick="if(event.target===this) this.style.display='none'">
+  <div class="custom-modal-box">
+    <button class="custom-modal-close" onclick="document.getElementById('modalYears').style.display='none'">×</button>
+    <h5 class="anchored">15+ Years of Service</h5>
+    <img src="images/founder.jpg.jpeg">
+    <p>For over 15 years, Oluwadamilola Desmond Awoyo has been actively involved in community development across Owo/Ose — from grassroots outreach to youth mentorship programs, building trust one community at a time.</p>
   </div>
 </div>
 
-<div class="modal fade" id="modalLives" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title anchored">5,000+ Lives Reached</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="images/founder.jpg.jpeg" style="width:100%; border-radius:10px; margin-bottom:1rem;">
-        <p>Through scholarship programs, healthcare outreach, and community empowerment initiatives, over 5,000 individuals across Owo/Ose have directly benefited from ODA's ongoing efforts.</p>
-      </div>
-    </div>
+<div class="custom-modal" id="modalLives" onclick="if(event.target===this) this.style.display='none'">
+  <div class="custom-modal-box">
+    <button class="custom-modal-close" onclick="document.getElementById('modalLives').style.display='none'">×</button>
+    <h5 class="anchored">5,000+ Lives Reached</h5>
+    <img src="images/founder.jpg.jpeg">
+    <p>Through scholarship programs, healthcare outreach, and community empowerment initiatives, over 5,000 individuals across Owo/Ose have directly benefited from ODA's ongoing efforts.</p>
   </div>
 </div>
 
-<div class="modal fade" id="modalCommunities" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title anchored">25+ Communities</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="images/founder.jpg.jpeg" style="width:100%; border-radius:10px; margin-bottom:1rem;">
-        <p>Development projects and community programs have reached over 25 towns and communities throughout Owo/Ose Federal Constituency.</p>
-      </div>
-    </div>
+<div class="custom-modal" id="modalCommunities" onclick="if(event.target===this) this.style.display='none'">
+  <div class="custom-modal-box">
+    <button class="custom-modal-close" onclick="document.getElementById('modalCommunities').style.display='none'">×</button>
+    <h5 class="anchored">25+ Communities</h5>
+    <img src="images/founder.jpg.jpeg">
+    <p>Development projects and community programs have reached over 25 towns and communities throughout Owo/Ose Federal Constituency.</p>
   </div>
 </div>
 
-<div class="modal fade" id="modalSupport" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title anchored">₦50M+ Community Support</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="images/founder.jpg.jpeg" style="width:100%; border-radius:10px; margin-bottom:1rem;">
-        <p>Over ₦50 million has been invested directly into community projects, scholarships, healthcare support, and infrastructure improvements.</p>
-      </div>
-    </div>
+<div class="custom-modal" id="modalSupport" onclick="if(event.target===this) this.style.display='none'">
+  <div class="custom-modal-box">
+    <button class="custom-modal-close" onclick="document.getElementById('modalSupport').style.display='none'">×</button>
+    <h5 class="anchored">₦50M+ Community Support</h5>
+    <img src="images/founder.jpg.jpeg">
+    <p>Over ₦50 million has been invested directly into community projects, scholarships, healthcare support, and infrastructure improvements.</p>
   </div>
 </div>
 
-<div class="modal fade" id="modalEducation" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title anchored">Education &amp; Youth</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="images/founder.jpg.jpeg" style="width:100%; border-radius:10px; margin-bottom:1rem;">
-        <p>ODA is committed to expanding scholarship opportunities, funding skills acquisition programs, and supporting youth entrepreneurship across Owo/Ose.</p>
-      </div>
-    </div>
+<div class="custom-modal" id="modalEducation" onclick="if(event.target===this) this.style.display='none'">
+  <div class="custom-modal-box">
+    <button class="custom-modal-close" onclick="document.getElementById('modalEducation').style.display='none'">×</button>
+    <h5 class="anchored">Education &amp; Youth</h5>
+    <img src="images/founder.jpg.jpeg">
+    <p>ODA is committed to expanding scholarship opportunities, funding skills acquisition programs, and supporting youth entrepreneurship across Owo/Ose.</p>
   </div>
 </div>
 
-<div class="modal fade" id="modalHealthcare" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title anchored">Healthcare &amp; Development</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="images/founder.jpg.jpeg" style="width:100%; border-radius:10px; margin-bottom:1rem;">
-        <p>A strong constituency is built on strong infrastructure. ODA is committed to improving access to quality healthcare through equipped clinics and regular medical outreach, upgrading roads to connect communities, ensuring reliable clean water supply, and renovating schools so every child has a safe place to learn.</p>
-      </div>
-    </div>
+<div class="custom-modal" id="modalHealthcare" onclick="if(event.target===this) this.style.display='none'">
+  <div class="custom-modal-box">
+    <button class="custom-modal-close" onclick="document.getElementById('modalHealthcare').style.display='none'">×</button>
+    <h5 class="anchored">Healthcare &amp; Development</h5>
+    <img src="images/founder.jpg.jpeg">
+    <p>A strong constituency is built on strong infrastructure. ODA is committed to improving access to quality healthcare through equipped clinics and regular medical outreach, upgrading roads to connect communities, ensuring reliable clean water supply, and renovating schools so every child has a safe place to learn.</p>
   </div>
 </div>
 
-<div class="modal fade" id="modalLeadership" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title anchored">Transparent Leadership</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-      <div class="modal-body">
-        <img src="images/founder.jpg.jpeg" style="width:100%; border-radius:10px; margin-bottom:1rem;">
-        <p>Leadership only means something when it's accountable. ODA is committed to open, honest representation — regularly reporting back to constituents, listening to community concerns, and making decisions that reflect the people's priorities, not just the party's.</p>
-      </div>
-    </div>
+<div class="custom-modal" id="modalLeadership" onclick="if(event.target===this) this.style.display='none'">
+  <div class="custom-modal-box">
+    <button class="custom-modal-close" onclick="document.getElementById('modalLeadership').style.display='none'">×</button>
+    <h5 class="anchored">Transparent Leadership</h5>
+    <img src="images/founder.jpg.jpeg">
+    <p>Leadership only means something when it's accountable. ODA is committed to open, honest representation — regularly reporting back to constituents, listening to community concerns, and making decisions that reflect the people's priorities, not just the party's.</p>
   </div>
 </div>
 
