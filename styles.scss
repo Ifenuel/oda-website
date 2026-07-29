@@ -15,7 +15,7 @@ $navbar-fg: #ffffff;
 
 .hero-section {
   position: relative;
-  min-height: 90vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -325,7 +325,7 @@ line-height:1.8;
 @media (max-width: 767px) {
 
   .hero-section {
-    min-height: 70vh;
+    min-height: 100vh;
     padding: 2rem 1.2rem;
   }
 
