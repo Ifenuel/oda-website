@@ -2,6 +2,13 @@ project:
   type: website
   output-dir: docs
 website:
+  site-url: "https://ifenuel.github.io/oda-website"
+  open-graph:
+    image: images/social-preview.jpg.jpeg
+    locale: en_US
+  twitter-card: 
+    image: images/social-preview.jpg.jpeg
+    card-style: summary_large_image
   favicon: images/logo.svg
   description: "Official campaign website for ODA - The Alternative for Change, Oluwadamilola Desmond Awoyo's platform for House of Representatives, Owo/Ose"
   title: "ODA - The Alternative for Change"

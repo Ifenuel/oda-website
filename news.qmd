@@ -1,5 +1,6 @@
 ---
-title: "News & Updates"
+title: "News & Updates | ODA - The Alternative for Change"
+descriptions: "Learn about ODA's news  for Owo/Ose - opportunities, development and accountability"
 ---
 
 ::: {.page-header}

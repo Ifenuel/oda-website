@@ -1,5 +1,6 @@
 ---
-title: "Get Involved"
+title: "Get Involved | ODA - The Alternative for Change"
+descriptions: "Learn about ODA's get-involve  for Owo/Ose - opportunities, development and accountability"
 ---
 
 ::: {.page-header}
