@@ -2,6 +2,8 @@
 title: ""
 ---
 
+::::::::: {.page-bg}
+
 ::: {.hero-section}
 
 ### OWO/OSE FEDERAL CONSTITUENCY
@@ -17,6 +19,10 @@ Join us as we build a future where every citizen has the opportunity to thrive.
 <a href="join.qmd" class="btn-primary-custom">Join the Movement</a>
 
 <a href="mission.qmd" class="btn-outline-light ms-3">Our Mission</a>
+
+:::
+
+::: {.section-block}
 
 ## Our Impact So Far
 
@@ -408,3 +414,5 @@ Receive campaign news, community updates and important announcements.
   </div>
 </div>
 ```
+
+:::::::::
