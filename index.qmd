@@ -11,12 +11,13 @@ include-in-header:
 ---
 ::::::::: {.page-bg}
 
+---
+title: ""
+---
+
 ::: {.hero-section}
-
 ### OWO/OSE FEDERAL CONSTITUENCY
-
 # ODA – The Alternative for Change
-
 ### A Vision Built on Opportunities, Development and Accountability
 
 For over **15 years**, Oluwadamilola Desmond Awoyo has served the people of Owo/Ose through community development, philanthropy and public service.
@@ -24,49 +25,36 @@ For over **15 years**, Oluwadamilola Desmond Awoyo has served the people of Owo/
 Join us as we build a future where every citizen has the opportunity to thrive.
 
 <a href="join.qmd" class="btn-primary-custom">Join the Movement</a>
-
 <a href="mission.qmd" class="btn-outline-light ms-3">Our Mission</a>
-
 :::
 
-::: {.section-block}
-
+:::::: {.section-block}
 ## Our Impact So Far
 
-::: {.columns}
+:::: {.columns}
 
 ::: {.column width="25%"}
-<div onclick="document.getElementById('modalYears').style.display='flex'" style="cursor:pointer;">
 # 15+
 Years of Service
-</div>
 :::
 
 ::: {.column width="25%"}
-<div onclick="document.getElementById('modalLives').style.display='flex'" style="cursor:pointer;">
 # 5,000+
 Lives Reached
-</div>
 :::
 
 ::: {.column width="25%"}
-<div onclick="document.getElementById('modalCommunities').style.display='flex'" style="cursor:pointer;">
 # 25+
 Communities
-</div>
 :::
 
 ::: {.column width="25%"}
-<div onclick="document.getElementById('modalSupport').style.display='flex'" style="cursor:pointer;">
 # ₦50M+
 Community Support
-</div>
 :::
 
-:::
-
-:::
-
+::::
+::::::
 :::: {.section-block}
 
 ::: {.columns}
