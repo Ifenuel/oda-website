@@ -1,7 +1,14 @@
 ---
 title: ""
+title-block-banner: false
+include-in-header:
+  text: |
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        document.body.classList.add("homepage");
+      });
+    </script>
 ---
-
 ::::::::: {.page-bg}
 
 ::: {.hero-section}
@@ -137,21 +144,70 @@ Stay informed about campaign activities, community outreach, and upcoming events
 
 # Community in Action
 
-::: {.columns}
+```{=html}
+<div id="communityCarousel" class="carousel slide gallery-carousel" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active"><img src="images/community-photo-1.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/community-photo-2.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/community-photo-3.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/community-photo-4.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/community-photo-5.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/community-photo-6.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/community-photo-7.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/community-photo-8.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/community-photo-9.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/community-photo-10.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/community-photo-11.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/community-photo-12.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/community-photo-13.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/community-photo-14.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/community-photo-15.jpg.jpeg" class="d-block w-100"></div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#communityCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#communityCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+```
 
-::: {.column}
-![](images/founder.jpg.jpeg){style="width:100%; border-radius:12px;"}
-:::
+::::
 
-::: {.column}
-![](images/founder.jpg.jpeg){style="width:100%; border-radius:12px;"}
-:::
+:::: {.section-block}
 
-::: {.column}
-![](images/founder.jpg.jpeg){style="width:100%; border-radius:12px;"}
-:::
+# Education Programs
 
-:::
+```{=html}
+<div id="educationCarousel" class="carousel slide gallery-carousel" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active"><img src="images/education-photo-1.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/education-photo-2.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/education-photo-3.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/education-photo-4.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/education-photo-5.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/education-photo-6.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/education-photo-7.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/education-photo-8.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/education-photo-9.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/education-photo-10.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/education-photo-11.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/education-photo-12.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/education-photo-13.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/education-photo-14.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/education-photo-15.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/education-photo-16.jpg.jpeg" class="d-block w-100"></div>
+    <div class="carousel-item"><img src="images/education-photo-17.jpg.jpeg" class="d-block w-100"></div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#educationCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#educationCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+```
+
 ::::
 
 ::: {.section-dark}
@@ -413,6 +469,17 @@ Receive campaign news, community updates and important announcements.
     <p>Leadership only means something when it's accountable. ODA is committed to open, honest representation — regularly reporting back to constituents, listening to community concerns, and making decisions that reflect the people's priorities, not just the party's.</p>
   </div>
 </div>
+
+<script>
+window.addEventListener('scroll', function() {
+  const navbar = document.querySelector('.navbar');
+  if (window.scrollY > 60) {
+    navbar.classList.add('navbar-scrolled');
+  } else {
+    navbar.classList.remove('navbar-scrolled');
+  }
+});
+</script>
 ```
 
 :::::::::
