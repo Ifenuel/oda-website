@@ -491,3 +491,26 @@ line-height:1.8;
   background-color: #ffffff !important;
   -webkit-text-fill-color: #2c2c2c !important;
 }
+
+/* ===== Extend hero image behind Impact stats ===== */
+.hero-section {
+  min-height: 100vh;
+  height: auto;
+  padding-bottom: 4rem;
+}
+
+.hero-section .columns .column {
+  background: rgba(255,255,255,0.95);
+  color: #1a3c6e;
+  border-radius: 14px;
+  padding: 1.5rem;
+}
+
+.hero-section .column h1 {
+  color: #1a3c6e;
+}
+
+.hero-section .column p,
+.hero-section .columns .column div {
+  color: #1a3c6e;
+}

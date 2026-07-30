@@ -18,10 +18,6 @@ Join us as we build a future where every citizen has the opportunity to thrive.
 
 <a href="mission.qmd" class="btn-outline-light ms-3">Our Mission</a>
 
-:::
-
-::: {.section-block}
-
 ## Our Impact So Far
 
 ::: {.columns}
