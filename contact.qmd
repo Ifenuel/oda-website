@@ -1,6 +1,5 @@
 ---
-title: "Contact Us | ODA - The Alternative for Change"
-descriptions: "Learn about ODA's contact  for Owo/Ose - opportunities, development and accountability"
+title: "Contact Us"
 ---
 
 ::: {.page-header}

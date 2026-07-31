@@ -1,6 +1,5 @@
 ---
-title: "Leadership | ODA - The Alternative for Change"
-description: "Learn about ODA's leadership  for Owo/Ose - opportunities, development and accountability"
+title: "Leadership"
 ---
 
 ::: {.page-header}

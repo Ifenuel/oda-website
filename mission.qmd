@@ -1,6 +1,5 @@
 ---
-title: "Our Mission | ODA - The Alternative for Change"
-description: "Learn about ODA's vision  for Owo/Ose - opportunities, development and accountability"
+title: "Our Mission"
 ---
 
 ::: {.page-header}
