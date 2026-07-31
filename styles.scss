@@ -860,3 +860,14 @@ body {
   }
 }
 
+/* ===== Fix content bleeding above navbar (stacking order) ===== */
+.navbar {
+  position: relative;
+  z-index: 1050;
+}
+
+.page-bg > * {
+  position: relative;
+  z-index: 1;
+}
+

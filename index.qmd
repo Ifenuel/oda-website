@@ -9,11 +9,8 @@ include-in-header:
       });
     </script>
 ---
-::::::::: {.page-bg}
 
----
-title: ""
----
+::::::::: {.page-bg}
 
 ::: {.hero-section}
 ### OWO/OSE FEDERAL CONSTITUENCY
@@ -55,9 +52,10 @@ Community Support
 
 ::::
 ::::::
-:::: {.section-block}
 
-::: {.columns}
+::::: {.section-block}
+
+:::: {.columns}
 
 ::: {.column width="45%"}
 ![](images/founder.jpg.jpeg){style="width:100%; border-radius:16px;"}
@@ -77,46 +75,46 @@ Rather than making promises, ODA believes in building trust through visible acti
 <a href="leadership.qmd" class="btn-primary-custom">Learn More</a>
 :::
 
-:::
 ::::
+:::::
 
-:::::: {.section-block}
+::::::: {.section-block}
 ## Our Commitments
 
-:::: {.columns}
+:::::: {.columns}
 
-::: {.column width="33%"}
-::: {.card-custom}
+::::: {.column width="33%"}
+:::: {.card-custom}
 <div onclick="document.getElementById('modalEducation').style.display='flex'" style="cursor:pointer;">
 # 🎓
 ### Education & Youth
 Scholarships, skills acquisition, entrepreneurship support and opportunities for young people across Owo/Ose.
 </div>
-:::
-:::
+::::
+:::::
 
-::: {.column width="33%"}
-::: {.card-custom}
+::::: {.column width="33%"}
+:::: {.card-custom}
 <div onclick="document.getElementById('modalHealthcare').style.display='flex'" style="cursor:pointer;">
 # 🏥
 ### Healthcare & Development
 A strong constituency is built on strong infrastructure. ODA is committed to improving access to quality healthcare and development.
 </div>
-:::
-:::
+::::
+:::::
 
-::: {.column width="33%"}
-::: {.card-custom}
+::::: {.column width="33%"}
+:::: {.card-custom}
 <div onclick="document.getElementById('modalLeadership').style.display='flex'" style="cursor:pointer;">
 # 🤝
 ### Transparent Leadership
 Leadership only means something when it's accountable — regularly reporting back to constituents and listening to community concerns.
 </div>
-:::
-:::
-
 ::::
+:::::
+
 ::::::
+:::::::
 
 ::: {.section-dark}
 
