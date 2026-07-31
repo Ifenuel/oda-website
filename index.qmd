@@ -31,23 +31,31 @@ Join us as we build a future where every citizen has the opportunity to thrive.
 :::: {.columns}
 
 ::: {.column width="25%"}
+<div onclick="document.getElementById('modalYears').style.display='flex'" style="cursor:pointer;">
 # 15+
 Years of Service
+</div>
 :::
 
 ::: {.column width="25%"}
+<div onclick="document.getElementById('modalLives').style.display='flex'" style="cursor:pointer;">
 # 5,000+
 Lives Reached
+</div>
 :::
 
 ::: {.column width="25%"}
+<div onclick="document.getElementById('modalCommunities').style.display='flex'" style="cursor:pointer;">
 # 25+
 Communities
+</div>
 :::
 
 ::: {.column width="25%"}
+<div onclick="document.getElementById('modalSupport').style.display='flex'" style="cursor:pointer;">
 # ₦50M+
 Community Support
+</div>
 :::
 
 ::::
@@ -397,7 +405,7 @@ Receive campaign news, community updates and important announcements.
   <div class="custom-modal-box">
     <button class="custom-modal-close" onclick="document.getElementById('modalYears').style.display='none'">&times;</button>
     <h5>15+ Years of Service</h5>
-    <img src="images/founder.jpg.jpeg">
+    <img src="images/education-photo-2.jpg.jpeg">
     <p>For over 15 years, Oluwadamilola Desmond Awoyo has been actively involved in community development across Owo/Ose — from grassroots outreach to youth mentorship programs, building trust one community at a time.</p>
   </div>
 </div>
@@ -406,7 +414,7 @@ Receive campaign news, community updates and important announcements.
   <div class="custom-modal-box">
     <button class="custom-modal-close" onclick="document.getElementById('modalLives').style.display='none'">&times;</button>
     <h5>5,000+ Lives Reached</h5>
-    <img src="images/founder.jpg.jpeg">
+    <img src="images/education-photo-6.jpg.jpeg">
     <p>Through scholarship programs, healthcare outreach, and community empowerment initiatives, over 5,000 individuals across Owo/Ose have directly benefited from ODA's ongoing efforts.</p>
   </div>
 </div>
@@ -415,7 +423,7 @@ Receive campaign news, community updates and important announcements.
   <div class="custom-modal-box">
     <button class="custom-modal-close" onclick="document.getElementById('modalCommunities').style.display='none'">&times;</button>
     <h5>25+ Communities</h5>
-    <img src="images/founder.jpg.jpeg">
+    <img src="images/community-photo-12.jpg.jpeg">
     <p>Development projects and community programs have reached over 25 towns and communities throughout Owo/Ose Federal Constituency.</p>
   </div>
 </div>
@@ -424,7 +432,7 @@ Receive campaign news, community updates and important announcements.
   <div class="custom-modal-box">
     <button class="custom-modal-close" onclick="document.getElementById('modalSupport').style.display='none'">&times;</button>
     <h5>₦50M+ Community Support</h5>
-    <img src="images/founder.jpg.jpeg">
+    <img src="images/education-photo-6.jpg.jpeg">
     <p>Over ₦50 million has been invested directly into community projects, scholarships, healthcare support, and infrastructure improvements.</p>
   </div>
 </div>
@@ -433,7 +441,7 @@ Receive campaign news, community updates and important announcements.
   <div class="custom-modal-box">
     <button class="custom-modal-close" onclick="document.getElementById('modalEducation').style.display='none'">&times;</button>
     <h5>Education & Youth</h5>
-    <img src="images/founder.jpg.jpeg">
+    <img src="images/education-photo-8.jpg.jpeg">
     <p>ODA is committed to expanding scholarship opportunities, funding skills acquisition programs, and supporting youth entrepreneurship across Owo/Ose.</p>
   </div>
 </div>
@@ -442,7 +450,7 @@ Receive campaign news, community updates and important announcements.
   <div class="custom-modal-box">
     <button class="custom-modal-close" onclick="document.getElementById('modalHealthcare').style.display='none'">&times;</button>
     <h5>Healthcare & Development</h5>
-    <img src="images/founder.jpg.jpeg">
+    <img src="images/community-photo-3.jpg.jpeg">
     <p>A strong constituency is built on strong infrastructure. ODA is committed to improving access to quality healthcare through equipped clinics and regular medical outreach, upgrading roads to connect communities, ensuring reliable clean water supply, and renovating schools so every child has a safe place to learn.</p>
   </div>
 </div>
@@ -451,7 +459,7 @@ Receive campaign news, community updates and important announcements.
   <div class="custom-modal-box">
     <button class="custom-modal-close" onclick="document.getElementById('modalLeadership').style.display='none'">&times;</button>
     <h5>Transparent Leadership</h5>
-    <img src="images/founder.jpg.jpeg">
+    <img src="images/education-photo-13.jpg.jpeg">
     <p>Leadership only means something when it's accountable. ODA is committed to open, honest representation — regularly reporting back to constituents, listening to community concerns, and making decisions that reflect the people's priorities, not just the party's.</p>
   </div>
 </div>
